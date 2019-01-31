@@ -16,7 +16,7 @@ ruby 2.5.1
 - Aquerir le repository en local avec clef SSH
 
 ```ruby
-$ git clone
+$ git clone git@github.com:Yacinth/rails_Freedoc.git
 ```
 
 ## Bundle Install
