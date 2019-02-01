@@ -71,7 +71,7 @@ sleep(1)
 
 10.times do 
   appointment = Appointment.create!(doctor_id: Doctor.all.sample.id, patient_id: Patient.all.sample.id, city_id: City.all.sample.id, date: Faker::Date.forward(42))
-  puts "appointment #{appointment.date}"
+  puts "appointment on #{appointment.date}"
 end
 
 puts "_______________________________"
@@ -80,7 +80,7 @@ sleep(1)
 
 10.times do 
   join_table_doctors_specialty = JoinTableDoctorsSpecialty.create!(doctor_id: Doctor.all.sample.id, specialty_id: Specialty.all.sample.id)
-  puts "Join Table #{join_table_doctors_specialty}"
+  puts "Doctor n°#{join_table_doctors_specialty.doctor_id} is specialize (specialty n°#{join_table_doctors_specialty.specialty_id})"
 end
 
 puts "_______________________________"
