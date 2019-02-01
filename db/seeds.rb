@@ -40,7 +40,6 @@ end
 
 puts "_______________________________"
 puts ""
-
 sleep(1)
 
 5.times do
@@ -50,7 +49,6 @@ end
 
 puts "_______________________________"
 puts ""
-
 sleep(1)
 
 10.times do 
@@ -58,9 +56,8 @@ sleep(1)
    puts "Doctor #{doctor.first_name} #{doctor.last_name} (city_id #{doctor.city_id})"
  end
 
- puts "_______________________________"
+puts "_______________________________"
 puts ""
-
 sleep(1)
 
 10.times do 
@@ -70,7 +67,6 @@ end
 
 puts "_______________________________"
 puts ""
-
 sleep(1)
 
 10.times do 
@@ -80,7 +76,6 @@ end
 
 puts "_______________________________"
 puts ""
-
 sleep(1)
 
 10.times do 
